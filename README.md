@@ -1,3 +1,21 @@
+# BIOMD0000000327: whitcomb04
+
+## Installation
+
+Download this repository, and install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/BIOMD0000000327.git`
+
+To install a specific version (in this example, from the 2014-09-16 BioModels release)
+
+`pip install git+https://github.com/biomodels/BIOMD0000000327.git@20140916`
+
+
+# Model Notes
 
 
 **A mathematical model of the pancreatic duct cell generating high bicarbonate concentrations in pancreatic juice**   
@@ -18,4 +36,5 @@ volume to the duct lumen volume as in the main text. The model reproduces the
 figures found in the article. The model uses initial assignments for the lumen
 volume and events to trigger CFTR opening, so only tools supporting these
 features can be used to simulate it (eg. Copasi and SBW/Roadrunner).
+
 
